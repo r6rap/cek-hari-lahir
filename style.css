@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: linear-gradient(300deg, deepskyblue,darkviolet,blue);
+    background-size: 150% 150%;
+    animation: gradient-animation 7s ease infinite;
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.container{
+    padding: 20px;
+    background-color: #B0C4DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container, label, input, button{
+    padding: 10px;
+    margin: 10px;
+}
+.container, input, button{
+    border-radius: 10px;
+    border: none;
+}
