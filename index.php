@@ -9,7 +9,7 @@
     <div class="container">
         <form action="" method="post">
             <label for="">Isi tanggal lahir kalian</label>
-            <input type="date" name="tanggal" id="tanggal" required>
+            <input type="text" name="tanggal" id="tanggal" placeholder="date/month/year" required>
             <button type="submit">submit</button>
         </form>
         <?php
